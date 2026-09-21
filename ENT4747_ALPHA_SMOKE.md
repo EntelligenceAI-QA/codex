@@ -1,7 +1,9 @@
 # ENT-4747 alpha PR-review smoke test
 
-Verifies that a pull_request webhook on an alpha-connected repo reaches
-the alpha backend and drives the pr-review-alpha-alpha state machine.
+Trigger stamp: 20260921T233042Z
 
-def add(a, b):
-    return a - b   # deliberate bug for the reviewer to find
+Verifies that a pull_request webhook on an alpha-connected repo
+reaches the alpha backend and drives pr-review-alpha-alpha.
+
+    def add(a, b):
+        return a - b   # deliberate bug for the reviewer to find
